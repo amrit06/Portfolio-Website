@@ -35,7 +35,13 @@ include('contact.php');
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
-            <!--<li><a href="#">More</a></li>-->
+        <!--     <li><button onclick="openSubMenu()">More <i class="fa fa-caret-down"></i></button>
+                <ul class="sub_nav_list">
+                    <li><a href="#">Achievement</a></li>
+                    <li><a href="#">List 1</a></li>
+                    <li><a href="#">List 1</a></li>
+                </ul>
+            </li> -->
         </ul>
         <div id="dropdown" onclick="openclosenavbar()" class="dropdown">
             <a href="#"><i class="fas fa-bars"></i></a>

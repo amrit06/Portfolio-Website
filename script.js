@@ -1,6 +1,5 @@
 
 function openclosenavbar() {
-    const dropdown = document.querySelector('.dropdown');
     const navlink = document.querySelector('.nav-link');
     navlink.classList.toggle('nav-link-open');
 }
@@ -12,8 +11,13 @@ function showmore(string) {
 }
 
 
-let slidePosition = 1;
+function openSubMenu() {
+    const show = document.querySelector('.sub_nav_list');
+    show.classList.toggle('show_sub_menu');
+}
 
+
+let slidePosition = 1;
 function movenext() {
     slidePosition = slidePosition += 1;
     moveslide();

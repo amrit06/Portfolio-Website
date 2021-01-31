@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-button{
+button {
     outline: none;
 }
 
@@ -44,19 +44,58 @@ body {
 }
 
 .nav-link {
+    height: 100%;
     list-style-type: none;
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
 }
 
-.nav-link a {
-    height: 100%;
+.nav-link a, .nav-link button {
+    line-height: 80px;
     color: black;
     font-family: sans-serif;
     font-size: 0.8em;
     letter-spacing: 2px;
     text-decoration: none;
+}
+
+.nav-link button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+
+.sub_nav_list {
+    background-color: whitesmoke;
+    width: 120px;
+    text-align: center;
+    list-style-type: none;
+
+    max-height: 0px;
+    transition: max-height 0.5s ease-in-out;
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sub_nav_list a {
+    line-height: 80px;
+    cursor: pointer;
+}
+
+
+
+.show_sub_menu {
+    max-height: 80px;
+    transition: max-height 0.5s ease-in-out;
+
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .nav-link a:hover {
@@ -220,7 +259,7 @@ body {
     font-size: 1em;
     border: none;
     letter-spacing: 1px;
-    
+
     font-size: 0.9em;
 }
 
@@ -230,13 +269,13 @@ body {
 }
 
 /*education*/
-.back-2{
+.back-2 {
     width: 100%;
     height: auto;
     background-image: url("vectorimg-1.jpg");
 }
 
-.back-2 .block{
+.back-2 .block {
     padding-top: 100px;
 }
 
@@ -307,7 +346,7 @@ body {
     margin-top: 20px;
 
     background: rgb(2, 0, 36);
-   
+
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     -webkit-box-shadow: 9px 7px 22px 6px rgba(0, 0, 0, 0.77);
@@ -472,19 +511,16 @@ body {
 .back-1 {
     width: 100%;
     height: 700px;
-    background-image: url("vectorimg-2.jpg") ;
+    background-image: url("vectorimg-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.back-1 .overlay-1{
+.back-1 .overlay-1 {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    
 }
-
-
 
 .back-1 .overlay-1 .block {
     position: relative;
@@ -492,11 +528,9 @@ body {
     opacity: 1;
 }
 
-.back-1 .block .title
-{
+.back-1 .block .title {
     color: white;
 }
-
 
 .carousel-container {
     width: 100%;
@@ -522,10 +556,9 @@ body {
     -webkit-box-shadow: 18px 15px 27px 1px rgba(0, 0, 0, 0.63);
     box-shadow: 18px 15px 27px 1px rgba(0, 0, 0, 0.63);
     pointer-events: all;
-    
 }
 
-@keyframes moveright{
+@keyframes moveright {
     from {
         left: 45%;
         opacity: 0.8;
@@ -536,7 +569,7 @@ body {
     }
 }
 
-@keyframes moveleft{
+@keyframes moveleft {
     from {
         left: 55%;
         opacity: 0.8;
@@ -546,8 +579,6 @@ body {
         opacity: 1;
     }
 }
-
-
 
 .slide {
     width: 280px;
@@ -610,7 +641,7 @@ body {
     text-align: center;
     margin: auto;
     color: white;
-    
+
     font-family: "Courier New", Courier, monospace;
 }
 
@@ -652,17 +683,17 @@ body {
     content: ">";
 }
 
-.back-3{
+.back-3 {
     background-color: darkgray;
 }
 
-.back-3 .block{
+.back-3 .block {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.back-3 .block h2{
+.back-3 .block h2 {
     color: black;
     font-size: 4em;
     font-weight: bolder;
@@ -670,8 +701,7 @@ body {
     font-family: monospace;
 }
 
-
-form{
+form {
     max-width: 400px;
     height: 550px;
     background-color: rgba(0, 0, 0, 0.63);
@@ -679,8 +709,7 @@ form{
     padding-top: 20px;
 }
 
-form input
-{
+form input {
     width: 350px;
     height: 50px;
     border: none;
@@ -709,7 +738,6 @@ form .submit {
 
     -webkit-box-shadow: 18px 15px 27px 1px rgba(0, 0, 0, 0.63);
     box-shadow: 18px 15px 27px 1px rgba(0, 0, 0, 0.63);
-    
 }
 
 form .submit:hover {
@@ -719,14 +747,12 @@ form .submit:hover {
 
     -webkit-box-shadow: 20px 20px 30px 1px rgba(0, 0, 0, 0.73);
     box-shadow: 20px 25px 40px 1px rgba(0, 0, 0, 0.83);
-    
 }
-
 
 .form .feedback {
     color: red;
     font-size: 0.9;
-    margin-top: 100px;;
+    margin-top: 100px;
     margin-top: 10px;
     display: block;
 }
@@ -738,29 +764,27 @@ form .submit:hover {
     margin-top: 50px;
     color: white;
     text-align: center;
-    
 }
 
-.footer h5{
+.footer h5 {
     font-size: 1.5em;
     letter-spacing: 2px;
     font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
-.footer i{
+.footer i {
     font-size: 0.7em;
 }
 
-.footer .icon{
+.footer .icon {
     font-size: 2em;
     margin: 5px;
 }
 
-.footer .icon:hover{
+.footer .icon:hover {
     cursor: pointer;
 }
-
 
 /* 
 .popup{
@@ -813,17 +837,6 @@ form .submit:hover {
 
  */
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 700px) {
     /*shared*/
     .block {
@@ -848,6 +861,22 @@ form .submit:hover {
         transform: translateX(300px);
         transition: transform 0.5s ease-in-out;
     }
+
+
+    .nav-link button{
+        width: 100%;
+        text-align: center;
+    }
+
+    .sub_nav_list {
+        width: auto;
+        height: auto;
+    }
+
+    .sub_nav_list a{
+        line-height: 40px;
+    }
+
 
     .dropdown {
         display: flex;
