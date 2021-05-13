@@ -36,5 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     } else {
         $msg = "Email couldn't be Sent!";
     }
+    
+    
+/* Added some line for conflict for git hub purpose*/
+    
 }
 
