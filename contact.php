@@ -1,6 +1,10 @@
 <?php
 
 $msg = "";
+
+/* Added some line for conflict for git hub purpose*/
+
+
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = htmlspecialchars($_POST['name']);
     $from = htmlspecialchars($_POST['email']);
