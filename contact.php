@@ -15,9 +15,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         "Reply-To: ". $to . "\r\n" .
         "X-Mailer: PHP/" . phpversion(); */
 
-    $headers = 'From: ' . $name . "<" . $from . ">" . " \r\n" .
-        'Reply-To: ' . $to . "\r\n" .
+    /*$headers = 'From: ' . $name . "<" . $from . ">" . " \r\n" .
+        'Reply-To: ' . $from . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
+    */
+
+    $headers = array(
+        'From' => $name."<" .$from. ">",
+        'Reply-To' => $from,
+        'X-Mailer' => 'PHP/' . phpversion()
+    );
 
     $result = mail($to, $subject, $body, $headers);
     if ($result) {
@@ -26,4 +33,4 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $msg = "Email couldn't be Sent!";
     }
 }
-    /* still goes to span fix it */
+

@@ -118,8 +118,8 @@ include('contact.php');
                 </div>
 
                 <div class="card-4">
-                    <a href="comingsoon.jpg" data-lightbox="image-1" data-title="Bachelor Certificate in ICT from Western Sydney University">
-                        <img src="comingsoon.jpg" alt="">
+                    <a href="completionreport.JPG" data-lightbox="image-1" data-title="Bachelor Certificate in ICT from Western Sydney University">
+                        <img src="completionreport.JPG" alt="">
                     </a>
                 </div>
             </div>
