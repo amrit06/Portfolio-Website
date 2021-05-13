@@ -1,7 +1,18 @@
 <?php
-/*i worte heaps of code*/
 
-/*i worte heaps of code*/
+
+/* Added some line for conflict for git hub purpose*/
+/* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
+     /* Added some line for conflict for git hub purpose*/
+    /* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
+     /* Added some line for conflict for git hub purpose*/
+    /* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
 
 /*i worte heaps of code*/
 /*i worte heaps of code*/
@@ -43,7 +54,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     }
     
     
-
     
 }
 
