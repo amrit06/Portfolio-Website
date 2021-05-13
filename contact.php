@@ -1,9 +1,6 @@
 <?php
-
+/*i worte heaps of code*/
 $msg = "";
-
-/* Added some line for conflict for git hub purpose*/
-
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = htmlspecialchars($_POST['name']);
@@ -38,11 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     }
     
     
-/* Added some line for conflict for git hub purpose*/
-    /* Added some line for conflict for git hub purpose*/
-    /* Some lines were altered*/
-    /* Added some line for conflict for git hub purpose*/
-    /* some lines were update in local*/
+
     
 }
 
