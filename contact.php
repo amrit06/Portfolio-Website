@@ -1,5 +1,10 @@
 <?php
 /*i worte heaps of code*/
+
+/*i worte heaps of code*/
+
+/*i worte heaps of code*/
+/*i worte heaps of code*/
 $msg = "";
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -7,6 +12,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $from = htmlspecialchars($_POST['email']);
     $body = htmlspecialchars($_POST['body']);
 
+    /*i worte heaps of code*/
+    /*i worte heaps of code*/
+    /*i worte heaps of code*/
     $to      = "amrit.kharel1.1@gmail.com";
     $subject = 'DeveloperEnvironment';
 
