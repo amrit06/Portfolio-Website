@@ -3,6 +3,17 @@
 $msg = "";
 
 /* Added some line for conflict for git hub purpose*/
+/* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
+     /* Added some line for conflict for git hub purpose*/
+    /* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
+     /* Added some line for conflict for git hub purpose*/
+    /* Some lines were altered*/
+    /* Added some line for conflict for git hub purpose*/
+    /* some lines were update in local*/
 
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
