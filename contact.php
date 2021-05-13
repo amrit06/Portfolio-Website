@@ -3,7 +3,9 @@
 $msg = "";
 
 /* Added some line for conflict for git hub purpose*/
-
+/* Added some line for conflict for git hub purpose*/
+/* Added some line for conflict for git hub purpose*/
+/* Added some line for conflict for git hub purpose*/
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = htmlspecialchars($_POST['name']);
