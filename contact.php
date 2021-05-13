@@ -1,31 +1,14 @@
 <?php
 
 
-/* Added some line for conflict for git hub purpose*/
-/* Some lines were altered*/
-    /* Added some line for conflict for git hub purpose*/
-    /* some lines were update in local*/
-     /* Added some line for conflict for git hub purpose*/
-    /* Some lines were altered*/
-    /* Added some line for conflict for git hub purpose*/
-    /* some lines were update in local*/
-     /* Added some line for conflict for git hub purpose*/
-    /* Some lines were altered*/
-    /* Added some line for conflict for git hub purpose*/
-    /* some lines were update in local*/
-
-/*i worte heaps of code*/
-/*i worte heaps of code*/
 $msg = "";
-
+/*ideal changes */
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $name = htmlspecialchars($_POST['name']);
     $from = htmlspecialchars($_POST['email']);
     $body = htmlspecialchars($_POST['body']);
 
-    /*i worte heaps of code*/
-    /*i worte heaps of code*/
-    /*i worte heaps of code*/
+   
     $to      = "amrit.kharel1.1@gmail.com";
     $subject = 'DeveloperEnvironment';
 
